@@ -1,0 +1,28 @@
+{
+  "name": "h2ws",
+  "version": "1.0.0",
+  "description": "An HTTP2 WebServer with WebSockets over HTTP2 for high availability services. Has a mesh server capability with notifiers, multi stream notifications, WebSockets over HTTP/2, notifications from a different session (chat / matchmaking etc)",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zalter-com/h2ws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zalter-com/h2ws/issues"
+  },
+  "homepage": "https://github.com/zalter-com/h2ws#readme",
+  "dependencies": {
+    "cbor": "^10.0.3",
+    "mime-types": "^2.1.35",
+    "redis": "^4.7.0"
+  }
+}

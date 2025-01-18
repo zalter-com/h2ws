@@ -1,7 +1,24 @@
 # h2ws
-An HTTP2 WebServer with WebSockets over HTTP2 for high availability services.
-Has a mesh server capability with notifiers, multi stream notifications, WebSockets over HTTP/2, notifications from a diferent session (chat / matchmaking etc)
 
-It's built in an OOP paradigm using ES14 pure and JSDOC for typescript like functionality.
+An HTTP2 WebServer with WebSockets over HTTP2 for high availability services. It supports mesh server capability with notifiers, multi-stream notifications, WebSockets over HTTP/2, and notifications from different sessions (e.g., chat, matchmaking).
 
-The server is written to support our live service games.
+## Features
+
+- **High Availability**: Designed for high availability services.
+- **WebSockets over HTTP/2**: Supports WebSockets over HTTP/2 for efficient communication.
+- **Mesh Server Capability**: Includes notifiers and multi-stream notifications.
+- **Session Notifications**: Allows notifications from different sessions (e.g., chat, matchmaking).
+- **OOP Paradigm**: Built using ES14 and JSDOC for TypeScript-like functionality.
+- **Live Service Support**: Written to support live service games.
+
+## Installation
+
+To install the dependencies, run:
+
+```bash
+npm install
+```
+
+
+
+
