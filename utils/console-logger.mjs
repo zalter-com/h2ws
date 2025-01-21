@@ -27,7 +27,6 @@ export const getConsoleLogger = (configs) => {
 			throw new Error("Invalid level string");
 		}
 	}
-	console.log("Level Index", levelIndex);
 	levels.forEach((level, index) => {
 		if (index < levelIndex) {
 			outputLogger[level] = () => {};
